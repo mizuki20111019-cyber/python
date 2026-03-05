@@ -57,3 +57,18 @@ print("Age increased by 1")
 print(json.dumps(data, indent = 2))
 print()
 
+
+# =====================
+#4. JSON with a list(array)
+#======================
+
+print("=== 4. JSON with LIST ===")
+
+users = [
+    {"name": "Taro", "age": 13},
+    {"name": "Hanako", "age": 14},
+
+]
+
+print (json.dumps(users, indent=2))
+print()
