@@ -72,3 +72,34 @@ users = [
 
 print (json.dumps(users, indent=2))
 print()
+
+
+print("=== 5. Add New User === ")
+
+new_user = {"name": "Ken", "age": 12}
+
+# Append new dictionary to list
+users.append(new_user)
+
+print(json.dumps(users, indent=2))
+print()
+
+
+
+
+
+# =======================
+#6. Interative JSON practice
+#========================
+
+print("=== 6. Interactive JSON Practice ===")
+
+# Get user input
+name = input("Enter  a name:")
+age = int(input("Enter age:"))
+
+# Add input data to list
+users.append({"name": name, "age": age})
+
+print("Current users:")
+print(json.dumps(users, indent=2))
