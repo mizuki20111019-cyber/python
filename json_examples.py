@@ -44,18 +44,6 @@ print("Name:",data["name"])
 print()
 
 
-# =====================
-#3. Save JSON to a file
-# =====================
-
-print("=== 3. Modify Data ===")
-
-# Increase age by 1
-data["age"] = data["age"] + 1
-
-print("Age increased by 1")
-print(json.dumps(data, indent = 2))
-print()
 
 
 # =====================
@@ -97,5 +85,4 @@ users.append(new_user)
 
 print(json.dumps(users, indent=2))
 print()
-
 
