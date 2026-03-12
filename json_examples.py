@@ -35,6 +35,19 @@ text = '''
 }
 '''
 
+# ============================
+#3. Modify Data
+#=============================
+
+print("=== 3. Modify Data ===")
+
+# Increase age by 1
+data["age"] = data["age"] + 1
+print("Age increased by 1")
+print(json.dumps(data, indent = 2))
+print()
+
+
 # Convert JSON string to Python dictionary
 data = json.loads(text)
 
