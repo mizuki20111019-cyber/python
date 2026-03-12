@@ -84,7 +84,19 @@ users.append(new_user)
 print(json.dumps(users, indent=2))
 print()
 
+#===========-=======================
+#5. Add New User
+#========================
 
+print("=== 5. Add New User === ")
+
+new_user = {"name": "Ken", "age": 12}
+
+# Append new dictionary to list
+users.append(new_user)
+
+print(json.dumps(users, indent=2))
+print()
 
 
 
